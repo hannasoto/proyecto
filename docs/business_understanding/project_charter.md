@@ -35,6 +35,7 @@ A partir de la identificación de los fenomenos de deforestación y el efecto en
 
 ## Plan
 * Fases: 
+
 Extracción de datos: requiere de extracción de la información a partir de NETcdfs en corridas anuales. Para precipitación y deforestación. 
 
 Asociación de datos a diferentes áreas de las cuencas (cuenca arriba, cuenca abajo, municipio x y municipio y, zona de reserva) para encontrar su efecto.
