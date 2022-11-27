@@ -36,12 +36,19 @@ A partir de la identificación de los fenomenos de deforestación y el efecto en
 ## Plan
 * Fases: 
 Extracción de datos: requiere de extracción de la información a partir de NETcdfs en corridas anuales. Para precipitación y deforestación. 
+
 Asociación de datos a diferentes áreas de las cuencas (cuenca arriba, cuenca abajo, municipio x y municipio y, zona de reserva) para encontrar su efecto.
+
 Procesamiento de los datos: Arreglos y demás, por variables se deben hacer promedios multianuales o encontrar la mejor manera de eliminar el ruido de las series de tiempo. 
+
 Exploración de los datos: encontrar la asociación estadistica entre las dos variables principales y las áreas. 
+
 Extraer la información y limpiar la base de datos.
+
 Modelado a partir de MLE: modelos para series de tiempo. 
-Evaluación: evaluación del modelo y comparación con lo que ha sucedido hasta la actualidad para entender el pronostico. 
+
+Evaluación: evaluación del modelo y comparación con lo que ha sucedido hasta la actualidad para entender el pronostico.
+
 Entrega al cliente.
 
 ## Arquitectura
