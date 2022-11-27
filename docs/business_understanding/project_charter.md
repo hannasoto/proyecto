@@ -55,18 +55,23 @@ Entrega al cliente.
 ## Arquitectura
 * Data
   * De dónde vienen los datos?
-  Imagénes satelitales de la cuenca del guaviare que permiten identificar los valores de precipitación y deforestación promedio para el área en cada día en un período de 1986 a 2017. 
-  Shapes de la data geografica abierta de Colombia de la cuenca del Guaviare para poder cortar las imagenes y delimitarlas. 
+  
+  -Imagénes satelitales de la cuenca del guaviare que permiten identificar los valores de precipitación y deforestación promedio para el área en cada día en un período de 1986 a 2017. 
+  
+  -Shapes de la data geografica abierta de Colombia de la cuenca del Guaviare para poder cortar las imagenes y delimitarlas. 
   
 * Data movement from on-prem to Azure using ADF or other data movement tools (Azcopy, EventHub etc.) to move either
   * all the data, 
   * after some pre-aggregation on-prem,
   * Sampled data enough for modeling 
 
-* Que herramientas se utilizaran y fuentes de almacenamiento de datos y analitica para la solución.
+* Que herramientas se utilizaran y fuentes de almacenamiento de datos y analitica para la solución:
+
 En este caso se usa ArcGis para poder delimitar las imagenes satelitales y realizar el procesamiento de las imagenes con el fin de extraer los datos númericos que se necesitan. 
+
 Posteriormente, en R se hacen los análisis que permiten extraer los archivos .csv de los valores de precipitación y deforestación diarios para todos los años. 
 Los primeros análisis multivariados y univariados se haráne en python. 
+
 * How will the score or operationalized web service(s) (RRS and/or BES) be consumed in the business workflow of the customer? If applicable, write down pseudo code for the APIs of the web service calls.
   * How will the customer use the model results to make decisions
   * Data movement pipeline in production
@@ -75,5 +80,5 @@ Los primeros análisis multivariados y univariados se haráne en python.
 
 ## Communicación
 * Como nos comunicaremos? 
-Semanalmente se haran reuniones por TEAMS entre los dos equipos (cliente y nosotros)
-Comunicación abierta por slack para el equipo. 2 reuniones semanales para verificar plan y avances. 
+  *Semanalmente se haran reuniones por TEAMS entre los dos equipos (cliente y nosotros).
+  *Comunicación abierta por slack para el equipo. 2 reuniones semanales para verificar plan y avances. 
