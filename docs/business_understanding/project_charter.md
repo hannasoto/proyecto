@@ -19,6 +19,7 @@ A partir de la identificación de los fenomenos de deforestación y el efecto en
 
 ## Personal
 * Who are on this project:
+
 		* Project lead
 		* PM
 		* Data scientist(s)
@@ -80,5 +81,6 @@ Los primeros análisis multivariados y univariados se haráne en python.
 
 ## Communicación
 * Como nos comunicaremos? 
+
   *Semanalmente se haran reuniones por TEAMS entre los dos equipos (cliente y nosotros).
   *Comunicación abierta por slack para el equipo. 2 reuniones semanales para verificar plan y avances. 
